@@ -1,0 +1,558 @@
+[
+    {
+        "value": "Arms tucking in at the sides",
+        "label": "Arms tucking in at the sides"
+    },
+    {
+        "value": "Bending forward and laying head on arms",
+        "label": "Bending forward and laying head on arms"
+    },
+    {
+        "value": "Bent spine",
+        "label": "Bent spine"
+    },
+    {
+        "value": "Body shaking",
+        "label": "Body shaking"
+    },
+    {
+        "value": "Body freezing in place",
+        "label": "Body freezing in place"
+    },
+    {
+        "value": "Body posture that loosens or collapses",
+        "label": "Body posture that loosens or collapses"
+    },
+    {
+        "value": "Bracing against a wall",
+        "label": "Bracing against a wall"
+    },
+    {
+        "value": "Bringing the feet together",
+        "label": "Bringing the feet together"
+    },
+    {
+        "value": "Chest caving",
+        "label": "Chest caving"
+    },
+    {
+        "value": "Clammy hands",
+        "label": "Clammy hands"
+    },
+    {
+        "value": "Clenched fists",
+        "label": "Clenched fists"
+    },
+    {
+        "value": "Clenched jaw",
+        "label": "Clenched jaw"
+    },
+    {
+        "value": "Clutching a token that is the focal point for the emotion",
+        "label": "Clutching a token that is the focal point for the emotion"
+    },
+    {
+        "value": "Clutching the stomach",
+        "label": "Clutching the stomach"
+    },
+    {
+        "value": "Coughing",
+        "label": "Coughing"
+    },
+    {
+        "value": "Covering face with hands",
+        "label": "Covering face with hands"
+    },
+    {
+        "value": "Covering oneself with something",
+        "label": "Covering oneself with something"
+    },
+    {
+        "value": "Covering the mouth",
+        "label": "Covering the mouth"
+    },
+    {
+        "value": "Cracking knuckles",
+        "label": "Cracking knuckles"
+    },
+    {
+        "value": "Cringing",
+        "label": "Cringing"
+    },
+    {
+        "value": "Crossed arms",
+        "label": "Crossed arms"
+    },
+    {
+        "value": "Curling up body into a ball",
+        "label": "Curling up body into a ball"
+    },
+    {
+        "value": "Digging for tissues",
+        "label": "Digging for tissues"
+    },
+    {
+        "value": "Dry heaving",
+        "label": "Dry heaving"
+    },
+    {
+        "value": "Dry washing the hands",
+        "label": "Dry washing the hands"
+    },
+    {
+        "value": "Feet shuffling",
+        "label": "Feet shuffling"
+    },
+    {
+        "value": "Fidgeting",
+        "label": "Fidgeting"
+    },
+    {
+        "value": "Finger-tapping a tabletop",
+        "label": "Finger-tapping a tabletop"
+    },
+    {
+        "value": "Flexing the fingers or arm muscles",
+        "label": "Flexing the fingers or arm muscles"
+    },
+    {
+        "value": "Flinching at noises",
+        "label": "Flinching at noises"
+    },
+    {
+        "value": "Flinching when touched",
+        "label": "Flinching when touched"
+    },
+    {
+        "value": "Folding the arms across the chest",
+        "label": "Folding the arms across the chest"
+    },
+    {
+        "value": "Grabbing onto someone",
+        "label": "Grabbing onto someone"
+    },
+    {
+        "value": "Gripping something and knuckles going white",
+        "label": "Gripping something and knuckles going white"
+    },
+    {
+        "value": "Hand on the hip",
+        "label": "Hand on the hip"
+    },
+    {
+        "value": "Hands covering face",
+        "label": "Hands covering face"
+    },
+    {
+        "value": "Hands curling around their body",
+        "label": "Hands curling around their body"
+    },
+    {
+        "value": "Hands jammed into armpits",
+        "label": "Hands jammed into armpits"
+    },
+    {
+        "value": "Hands that briefly clench ",
+        "label": "Hands that briefly clench "
+    },
+    {
+        "value": "Hands touching the lips, mouth, face",
+        "label": "Hands touching the lips, mouth, face"
+    },
+    {
+        "value": "Hands up in air",
+        "label": "Hands up in air"
+    },
+    {
+        "value": "Head flinching back slightly",
+        "label": "Head flinching back slightly"
+    },
+    {
+        "value": "Hiding behind something",
+        "label": "Hiding behind something"
+    },
+    {
+        "value": "Holding elbows wide form the body",
+        "label": "Holding elbows wide form the body"
+    },
+    {
+        "value": "Holding stomach",
+        "label": "Holding stomach"
+    },
+    {
+        "value": "Holding the head in the hands",
+        "label": "Holding the head in the hands"
+    },
+    {
+        "value": "Hunched shoulders",
+        "label": "Hunched shoulders"
+    },
+    {
+        "value": "Keeping one's back to a wall or corner",
+        "label": "Keeping one's back to a wall or corner"
+    },
+    {
+        "value": "Knees pulling together",
+        "label": "Knees pulling together"
+    },
+    {
+        "value": "Knitting of the fingers",
+        "label": "Knitting of the fingers"
+    },
+    {
+        "value": "Leaning back",
+        "label": "Leaning back"
+    },
+    {
+        "value": "Leg muscles tightening and the body ready to run",
+        "label": "Leg muscles tightening and the body ready to run"
+    },
+    {
+        "value": "Legs that are planted wide",
+        "label": "Legs that are planted wide"
+    },
+    {
+        "value": "Limp posture",
+        "label": "Limp posture"
+    },
+    {
+        "value": "Lips pressing into a white slash",
+        "label": "Lips pressing into a white slash"
+    },
+    {
+        "value": "Lips that flatten or curl",
+        "label": "Lips that flatten or curl"
+    },
+    {
+        "value": "Nails biting into one's own palms",
+        "label": "Nails biting into one's own palms"
+    },
+    {
+        "value": "Narrowing one's stance",
+        "label": "Narrowing one's stance"
+    },
+    {
+        "value": "Nervous hand gestures",
+        "label": "Nervous hand gestures"
+    },
+    {
+        "value": "Pacing",
+        "label": "Pacing"
+    },
+    {
+        "value": "Picking fights",
+        "label": "Picking fights"
+    },
+    {
+        "value": "Pounding one's fists against something",
+        "label": "Pounding one's fists against something"
+    },
+    {
+        "value": "Pressing a fist to the mouth",
+        "label": "Pressing a fist to the mouth"
+    },
+    {
+        "value": "Pressing fingers on eyes",
+        "label": "Pressing fingers on eyes"
+    },
+    {
+        "value": "Pressing one's knees together",
+        "label": "Pressing one's knees together"
+    },
+    {
+        "value": "Propping the head up with a fist",
+        "label": "Propping the head up with a fist"
+    },
+    {
+        "value": "Pulling a hood over the head",
+        "label": "Pulling a hood over the head"
+    },
+    {
+        "value": "Pulling at the collar",
+        "label": "Pulling at the collar"
+    },
+    {
+        "value": "Pulling up a collar to cover the mouth and nose",
+        "label": "Pulling up a collar to cover the mouth and nose"
+    },
+    {
+        "value": "Punching, kicking, throwing things",
+        "label": "Punching, kicking, throwing things"
+    },
+    {
+        "value": "Putting hand on own chest",
+        "label": "Putting hand on own chest"
+    },
+    {
+        "value": "Refusing to look",
+        "label": "Refusing to look"
+    },
+    {
+        "value": "Rigid posture, cords twanging in the neck",
+        "label": "Rigid posture, cords twanging in the neck"
+    },
+    {
+        "value": "Rocking back and forth",
+        "label": "Rocking back and forth"
+    },
+    {
+        "value": "Rolling one's eyes",
+        "label": "Rolling one's eyes"
+    },
+    {
+        "value": "Rolling up sleeves or loosening a collar",
+        "label": "Rolling up sleeves or loosening a collar"
+    },
+    {
+        "value": "Rubbing one's forehead or eyebrows",
+        "label": "Rubbing one's forehead or eyebrows"
+    },
+    {
+        "value": "Rubbing temples",
+        "label": "Rubbing temples"
+    },
+    {
+        "value": "Rubbing the affected area of one's body",
+        "label": "Rubbing the affected area of one's body"
+    },
+    {
+        "value": "Rubbing the back of the neck",
+        "label": "Rubbing the back of the neck"
+    },
+    {
+        "value": "Rubbing the brow as if to ward off a headache",
+        "label": "Rubbing the brow as if to ward off a headache"
+    },
+    {
+        "value": "Rubbing the chin",
+        "label": "Rubbing the chin"
+    },
+    {
+        "value": "Rubbing the eyes",
+        "label": "Rubbing the eyes"
+    },
+    {
+        "value": "Rubbing the heel of a palm against chest",
+        "label": "Rubbing the heel of a palm against chest"
+    },
+    {
+        "value": "Rubbing the mouth",
+        "label": "Rubbing the mouth"
+    },
+    {
+        "value": "Rubbing the nose",
+        "label": "Rubbing the nose"
+    },
+    {
+        "value": "Running hands through the hair",
+        "label": "Running hands through the hair"
+    },
+    {
+        "value": "Scowling",
+        "label": "Scowling"
+    },
+    {
+        "value": "Scratching at one's cheek or temple",
+        "label": "Scratching at one's cheek or temple"
+    },
+    {
+        "value": "Shaking one's head",
+        "label": "Shaking one's head"
+    },
+    {
+        "value": "Shaking the head",
+        "label": "Shaking the head"
+    },
+    {
+        "value": "Shoulders slumping or curling forward",
+        "label": "Shoulders slumping or curling forward"
+    },
+    {
+        "value": "Shrugging",
+        "label": "Shrugging"
+    },
+    {
+        "value": "Sighing",
+        "label": "Sighing"
+    },
+    {
+        "value": "Slamming a fist on something",
+        "label": "Slamming a fist on something"
+    },
+    {
+        "value": "Slamming doors, cupboards, or drawers",
+        "label": "Slamming doors, cupboards, or drawers"
+    },
+    {
+        "value": "Sliding down in a chair",
+        "label": "Sliding down in a chair"
+    },
+    {
+        "value": "Slight head shake",
+        "label": "Slight head shake"
+    },
+    {
+        "value": "Slouching and leaning on objects",
+        "label": "Slouching and leaning on objects"
+    },
+    {
+        "value": "Snapping at people",
+        "label": "Snapping at people"
+    },
+    {
+        "value": "Sniffing and wiping at nose",
+        "label": "Sniffing and wiping at nose"
+    },
+    {
+        "value": "Spitting",
+        "label": "Spitting"
+    },
+    {
+        "value": "Staring down at one's empty hands",
+        "label": "Staring down at one's empty hands"
+    },
+    {
+        "value": "Staring down at the ground",
+        "label": "Staring down at the ground"
+    },
+    {
+        "value": "Staring off into the distance",
+        "label": "Staring off into the distance"
+    },
+    {
+        "value": "Stiff posture",
+        "label": "Stiff posture"
+    },
+    {
+        "value": "Stiff walking and the knees locking",
+        "label": "Stiff walking and the knees locking"
+    },
+    {
+        "value": "Stomping",
+        "label": "Stomping"
+    },
+    {
+        "value": "Stooped posture",
+        "label": "Stooped posture"
+    },
+    {
+        "value": "Stretching arms",
+        "label": "Stretching arms"
+    },
+    {
+        "value": "Stroking the throat",
+        "label": "Stroking the throat"
+    },
+    {
+        "value": "Swallowing hard",
+        "label": "Swallowing hard"
+    },
+    {
+        "value": "Swatting at the air",
+        "label": "Swatting at the air"
+    },
+    {
+        "value": "Sweeping a hand across the forehead to get rid of sweat",
+        "label": "Sweeping a hand across the forehead to get rid of sweat"
+    },
+    {
+        "value": "Taking a deep breath and holding it in",
+        "label": "Taking a deep breath and holding it in"
+    },
+    {
+        "value": "Taking off eyeglasses",
+        "label": "Taking off eyeglasses"
+    },
+    {
+        "value": "Tapping a fist against the lips",
+        "label": "Tapping a fist against the lips"
+    },
+    {
+        "value": "Tapping a foot",
+        "label": "Tapping a foot"
+    },
+    {
+        "value": "Tapping one's fingers",
+        "label": "Tapping one's fingers"
+    },
+    {
+        "value": "Tendons standing out in the neck",
+        "label": "Tendons standing out in the neck"
+    },
+    {
+        "value": "Tense posture",
+        "label": "Tense posture"
+    },
+    {
+        "value": "Throwing hands up in the air",
+        "label": "Throwing hands up in the air"
+    },
+    {
+        "value": "Throwing up",
+        "label": "Throwing up"
+    },
+    {
+        "value": "Tight shoulders",
+        "label": "Tight shoulders"
+    },
+    {
+        "value": "Tilting head downward",
+        "label": "Tilting head downward"
+    },
+    {
+        "value": "Tilting one's head to the side",
+        "label": "Tilting one's head to the side"
+    },
+    {
+        "value": "Toes curling up",
+        "label": "Toes curling up"
+    },
+    {
+        "value": "Touching a cross or fingering jewelry",
+        "label": "Touching a cross or fingering jewelry"
+    },
+    {
+        "value": "Tugging a hat down low",
+        "label": "Tugging a hat down low"
+    },
+    {
+        "value": "Tugging at clothing",
+        "label": "Tugging at clothing"
+    },
+    {
+        "value": "Turning body away",
+        "label": "Turning body away"
+    },
+    {
+        "value": "Unfocused gaze",
+        "label": "Unfocused gaze"
+    },
+    {
+        "value": "Using hair to hide their face",
+        "label": "Using hair to hide their face"
+    },
+    {
+        "value": "Vein that pulses, twitches, or becomes engorged",
+        "label": "Vein that pulses, twitches, or becomes engorged"
+    },
+    {
+        "value": "Visible sweating",
+        "label": "Visible sweating"
+    },
+    {
+        "value": "Visible tension in the neck, shoulders, and arms",
+        "label": "Visible tension in the neck, shoulders, and arms"
+    },
+    {
+        "value": "Wincing",
+        "label": "Wincing"
+    },
+    {
+        "value": "Wrinkling one's nose",
+        "label": "Wrinkling one's nose"
+    },
+    {
+        "value": "Yawning",
+        "label": "Yawning"
+    }
+]

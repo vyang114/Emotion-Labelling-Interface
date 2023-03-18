@@ -1,0 +1,382 @@
+[
+    {
+        "value": "A bent spine",
+        "label": "A bent spine"
+    },
+    {
+        "value": "A heavy-footed walk",
+        "label": "A heavy-footed walk"
+    },
+    {
+        "value": "Arms tucking in at the sides",
+        "label": "Arms tucking in at the sides"
+    },
+    {
+        "value": "Avoiding eye contact",
+        "label": "Avoiding eye contact"
+    },
+    {
+        "value": "Beads of sweat on the lip or forehead",
+        "label": "Beads of sweat on the lip or forehead"
+    },
+    {
+        "value": "Bending forward and laying head on arms",
+        "label": "Bending forward and laying head on arms"
+    },
+    {
+        "value": "Biting lips",
+        "label": "Biting lips"
+    },
+    {
+        "value": "Body freezing in place",
+        "label": "Body freezing in place"
+    },
+    {
+        "value": "Bracing against a wall",
+        "label": "Bracing against a wall"
+    },
+    {
+        "value": "Chest caving",
+        "label": "Chest caving"
+    },
+    {
+        "value": "Chin dipping down",
+        "label": "Chin dipping down"
+    },
+    {
+        "value": "Clammy hands",
+        "label": "Clammy hands"
+    },
+    {
+        "value": "Clenching the fists",
+        "label": "Clenching the fists"
+    },
+    {
+        "value": "Clenching the jaw",
+        "label": "Clenching the jaw"
+    },
+    {
+        "value": "Closed eyes",
+        "label": "Closed eyes"
+    },
+    {
+        "value": "Clutching a token that is the focal point for the emotion",
+        "label": "Clutching a token that is the focal point for the emotion"
+    },
+    {
+        "value": "Clutching the stomach",
+        "label": "Clutching the stomach"
+    },
+    {
+        "value": "Coughing",
+        "label": "Coughing"
+    },
+    {
+        "value": "Covering face with hands",
+        "label": "Covering face with hands"
+    },
+    {
+        "value": "Covering oneself with something",
+        "label": "Covering oneself with something"
+    },
+    {
+        "value": "Cringing",
+        "label": "Cringing"
+    },
+    {
+        "value": "Crossing one's arms or holding onto own shoulders",
+        "label": "Crossing one's arms or holding onto own shoulders"
+    },
+    {
+        "value": "Curling up body into a ball",
+        "label": "Curling up body into a ball"
+    },
+    {
+        "value": "Dark circles under the eyes",
+        "label": "Dark circles under the eyes"
+    },
+    {
+        "value": "Digging for tissues",
+        "label": "Digging for tissues"
+    },
+    {
+        "value": "Downcast eyes",
+        "label": "Downcast eyes"
+    },
+    {
+        "value": "Ears turning red",
+        "label": "Ears turning red"
+    },
+    {
+        "value": "Eyes appearing damp and overly bright",
+        "label": "Eyes appearing damp and overly bright"
+    },
+    {
+        "value": "Feet shuffling",
+        "label": "Feet shuffling"
+    },
+    {
+        "value": "Fidgeting",
+        "label": "Fidgeting"
+    },
+    {
+        "value": "Flat expression",
+        "label": "Flat expression"
+    },
+    {
+        "value": "Flinching at noises",
+        "label": "Flinching at noises"
+    },
+    {
+        "value": "Flinching when touched",
+        "label": "Flinching when touched"
+    },
+    {
+        "value": "Flushing cheeks",
+        "label": "Flushing cheeks"
+    },
+    {
+        "value": "Frowning",
+        "label": "Frowning"
+    },
+    {
+        "value": "Furrowed eyebrows",
+        "label": "Furrowed eyebrows"
+    },
+    {
+        "value": "Gasping and expelling one's breath as if pained",
+        "label": "Gasping and expelling one's breath as if pained"
+    },
+    {
+        "value": "Grabbing onto someone",
+        "label": "Grabbing onto someone"
+    },
+    {
+        "value": "Gripping something and knuckles going white",
+        "label": "Gripping something and knuckles going white"
+    },
+    {
+        "value": "Gritting one's teeth and pressing the lips tight",
+        "label": "Gritting one's teeth and pressing the lips tight"
+    },
+    {
+        "value": "Hands curling around their body",
+        "label": "Hands curling around their body"
+    },
+    {
+        "value": "Hands jammed into armpits",
+        "label": "Hands jammed into armpits"
+    },
+    {
+        "value": "Hiding behind something",
+        "label": "Hiding behind something"
+    },
+    {
+        "value": "Holding stomach",
+        "label": "Holding stomach"
+    },
+    {
+        "value": "Keeping one's back to a wall or corner",
+        "label": "Keeping one's back to a wall or corner"
+    },
+    {
+        "value": "Knees pulling together",
+        "label": "Knees pulling together"
+    },
+    {
+        "value": "Knitting of the fingers",
+        "label": "Knitting of the fingers"
+    },
+    {
+        "value": "Leg muscles tightening and the body ready to run",
+        "label": "Leg muscles tightening and the body ready to run"
+    },
+    {
+        "value": "Licking the lips and gulping down water",
+        "label": "Licking the lips and gulping down water"
+    },
+    {
+        "value": "Limp posture",
+        "label": "Limp posture"
+    },
+    {
+        "value": "Limping",
+        "label": "Limping"
+    },
+    {
+        "value": "Looking behind",
+        "label": "Looking behind"
+    },
+    {
+        "value": "Looking down",
+        "label": "Looking down"
+    },
+    {
+        "value": "Lowered eyebrows",
+        "label": "Lowered eyebrows"
+    },
+    {
+        "value": "Pale complexion",
+        "label": "Pale complexion"
+    },
+    {
+        "value": "Pleading and talking to oneself",
+        "label": "Pleading and talking to oneself"
+    },
+    {
+        "value": "Pressing fingers on eyes",
+        "label": "Pressing fingers on eyes"
+    },
+    {
+        "value": "Pulling a hood over the head",
+        "label": "Pulling a hood over the head"
+    },
+    {
+        "value": "Pulling at the collar",
+        "label": "Pulling at the collar"
+    },
+    {
+        "value": "Putting hand on own chest",
+        "label": "Putting hand on own chest"
+    },
+    {
+        "value": "Rocking back and forth",
+        "label": "Rocking back and forth"
+    },
+    {
+        "value": "Rubbing eyes",
+        "label": "Rubbing eyes"
+    },
+    {
+        "value": "Rubbing temples",
+        "label": "Rubbing temples"
+    },
+    {
+        "value": "Rubbing the affected area of one's body",
+        "label": "Rubbing the affected area of one's body"
+    },
+    {
+        "value": "Rubbing the back of the neck",
+        "label": "Rubbing the back of the neck"
+    },
+    {
+        "value": "Rubbing the heel of a palm against chest",
+        "label": "Rubbing the heel of a palm against chest"
+    },
+    {
+        "value": "Running makeup",
+        "label": "Running makeup"
+    },
+    {
+        "value": "Shaking",
+        "label": "Shaking"
+    },
+    {
+        "value": "Shoulders slumping or curling forward",
+        "label": "Shoulders slumping or curling forward"
+    },
+    {
+        "value": "Shoving hands in pockets",
+        "label": "Shoving hands in pockets"
+    },
+    {
+        "value": "Sighing",
+        "label": "Sighing"
+    },
+    {
+        "value": "Sitting down against a wall with head tilted down",
+        "label": "Sitting down against a wall with head tilted down"
+    },
+    {
+        "value": "Sliding down in a chair",
+        "label": "Sliding down in a chair"
+    },
+    {
+        "value": "Slouching and leaning on objects",
+        "label": "Slouching and leaning on objects"
+    },
+    {
+        "value": "Slumped posture",
+        "label": "Slumped posture"
+    },
+    {
+        "value": "Sniffing and wiping at nose",
+        "label": "Sniffing and wiping at nose"
+    },
+    {
+        "value": "Squeezing eyes shut",
+        "label": "Squeezing eyes shut"
+    },
+    {
+        "value": "Staring down at one's empty hands",
+        "label": "Staring down at one's empty hands"
+    },
+    {
+        "value": "Staring off into the distance",
+        "label": "Staring off into the distance"
+    },
+    {
+        "value": "Stiff walking and the knees locking",
+        "label": "Stiff walking and the knees locking"
+    },
+    {
+        "value": "Stiffening of limbs",
+        "label": "Stiffening of limbs"
+    },
+    {
+        "value": "Stooped posture",
+        "label": "Stooped posture"
+    },
+    {
+        "value": "Stretching arms",
+        "label": "Stretching arms"
+    },
+    {
+        "value": "Sweeping a hand across the forehead to get rid of sweat",
+        "label": "Sweeping a hand across the forehead to get rid of sweat"
+    },
+    {
+        "value": "Taking off eyeglasses",
+        "label": "Taking off eyeglasses"
+    },
+    {
+        "value": "Tendons standing out in the neck",
+        "label": "Tendons standing out in the neck"
+    },
+    {
+        "value": "Tight shoulders",
+        "label": "Tight shoulders"
+    },
+    {
+        "value": "Tilting head downward",
+        "label": "Tilting head downward"
+    },
+    {
+        "value": "Toes curling up",
+        "label": "Toes curling up"
+    },
+    {
+        "value": "Touching a cross or fingering jewelry",
+        "label": "Touching a cross or fingering jewelry"
+    },
+    {
+        "value": "Tugging a hat down low ",
+        "label": "Tugging a hat down low "
+    },
+    {
+        "value": "Using hair to hide their face",
+        "label": "Using hair to hide their face"
+    },
+    {
+        "value": "Visible sweating",
+        "label": "Visible sweating"
+    },
+    {
+        "value": "Wincing",
+        "label": "Wincing"
+    },
+    {
+        "value": "Yawning",
+        "label": "Yawning"
+    }
+]

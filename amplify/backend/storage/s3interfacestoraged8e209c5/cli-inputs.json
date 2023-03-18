@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3interfacestoraged8e209c5",
+  "bucketName": "interface-storage-d8e209c5",
+  "policyUUID": "54b6a9da",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "DELETE",
+    "READ"
+  ]
+}

@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button, Flex, Text, TextField, SelectField } from '@aws-amplify/ui-react';
+import React from "react";
+import Batch from "./Batch.js";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Batch />
   );
 }
 
-export default App;
+// import {Link} from "react-router-dom";
+// {pages.map((page) => (
+//  <Link to={page.link} key={page.name}> 
+//   <MenuItem  onClick={handleCloseNavMenu}>
+//       <Typography textAlign="center">
+//         {page.name}
+//       </Typography>
+//    </MenuItem>
+//   </Link>
+// ))}
