@@ -19,7 +19,7 @@ function Batch() {
 //     {batch: 61}
 //   ]
     const batches = require('./batchList.json');
-    const someImages = require('./data.json');
+    const someImages = require('./iteration2_images.json');
 //   console.log(someImages);
 
 //   const someImages = [
@@ -68,7 +68,7 @@ function Batch() {
 
   useEffect(() => {
     setSomePosts(result)
-    // console.log("posts", parseInt(batch), somePosts)
+    console.log(result)
   }, [batch])
 
   useEffect(() => {
@@ -224,7 +224,6 @@ function Batch() {
           />
       </div>
     </div>
-  
   );
 }
 

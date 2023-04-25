@@ -1,67 +1,19 @@
 [
     {
-        "value": "Averted gaze",
-        "label": "Averted gaze"
-    },
-    {
-        "value": "Avoiding eye contact",
-        "label": "Avoiding eye contact"
-    },
-    {
-        "value": "Baring one's teeth",
-        "label": "Baring one's teeth"
-    },
-    {
-        "value": "Beads of sweat on the lip or forehead",
-        "label": "Beads of sweat on the lip or forehead"
-    },
-    {
-        "value": "Biting lips",
-        "label": "Biting lips"
-    },
-    {
-        "value": "Blank look, a slack expression",
-        "label": "Blank look, a slack expression"
+        "value": "Cheek resting on own palm",
+        "label": "Cheek resting on own palm"
     },
     {
         "value": "Chin dipping down",
         "label": "Chin dipping down"
     },
     {
-        "value": "Closed eyes",
-        "label": "Closed eyes"
-    },
-    {
-        "value": "Curling lip",
-        "label": "Curling lip"
-    },
-    {
-        "value": "Dark circles under the eyes",
-        "label": "Dark circles under the eyes"
-    },
-    {
-        "value": "Downcast eyes",
-        "label": "Downcast eyes"
+        "value": "Crying",
+        "label": "Crying"
     },
     {
         "value": "Ears turning red",
         "label": "Ears turning red"
-    },
-    {
-        "value": "Expression that appears pained",
-        "label": "Expression that appears pained"
-    },
-    {
-        "value": "Eyebrows that squish together",
-        "label": "Eyebrows that squish together"
-    },
-    {
-        "value": "Eyes appearing damp and overly bright",
-        "label": "Eyes appearing damp and overly bright"
-    },
-    {
-        "value": "Eyes that appear cold, dead and flat",
-        "label": "Eyes that appear cold, dead and flat"
     },
     {
         "value": "Flaring their nostrils",
@@ -72,68 +24,20 @@
         "label": "Flat expression"
     },
     {
-        "value": "Frowning",
-        "label": "Frowning"
-    },
-    {
-        "value": "Furrowed eyebrows",
-        "label": "Furrowed eyebrows"
-    },
-    {
-        "value": "Gaze clouding, going distant",
-        "label": "Gaze clouding, going distant"
-    },
-    {
-        "value": "Glancing as if looking for answers",
-        "label": "Glancing as if looking for answers"
-    },
-    {
-        "value": "Glaring",
-        "label": "Glaring"
-    },
-    {
-        "value": "Glassy stare",
-        "label": "Glassy stare"
-    },
-    {
         "value": "Grimacing",
         "label": "Grimacing"
     },
     {
-        "value": "Gritting one's teeth and pressing the lips tight",
-        "label": "Gritting one's teeth and pressing the lips tight"
+        "value": "Hiding face in arms",
+        "label": "Hiding face in arms"
     },
     {
         "value": "High chin",
         "label": "High chin"
     },
     {
-        "value": "Looking away",
-        "label": "Looking away"
-    },
-    {
-        "value": "Looking behind",
-        "label": "Looking behind"
-    },
-    {
-        "value": "Looking down",
-        "label": "Looking down"
-    },
-    {
-        "value": "Lowered eyebrows",
-        "label": "Lowered eyebrows"
-    },
-    {
-        "value": "Mouth opens but nothing comes out",
-        "label": "Mouth opens but nothing comes out"
-    },
-    {
-        "value": "Narrowed eyes",
-        "label": "Narrowed eyes"
-    },
-    {
-        "value": "Open mouth and tongue pushing slightly forward",
-        "label": "Open mouth and tongue pushing slightly forward"
+        "value": "Leaning head on hand",
+        "label": "Leaning head on hand"
     },
     {
         "value": "Pale complexion",
@@ -148,31 +52,59 @@
         "label": "Pinching the bridge of one's nose"
     },
     {
-        "value": "Poking one's tongue into the cheek",
-        "label": "Poking one's tongue into the cheek"
-    },
-    {
         "value": "Puffing out the cheeks",
         "label": "Puffing out the cheeks"
     },
     {
-        "value": "Raising one's eyebrows",
-        "label": "Raising one's eyebrows"
+        "value": "Resting chin on hand",
+        "label": "Resting chin on hand"
+    },
+    {
+        "value": "Resting forehead on hand",
+        "label": "Resting forehead on hand"
+    },
+    {
+        "value": "Resting one side of face on hand",
+        "label": "Resting one side of face on hand"
     },
     {
         "value": "Running makeup",
         "label": "Running makeup"
     },
     {
-        "value": "Smile that slips or appears forced",
-        "label": "Smile that slips or appears forced"
+        "value": "Shaking head",
+        "label": "Shaking head"
     },
     {
-        "value": "Squeezing eyes shut",
-        "label": "Squeezing eyes shut"
+        "value": "Smelling oneself",
+        "label": "Smelling oneself"
     },
     {
-        "value": "Squinting eyes",
-        "label": "Squinting eyes"
+        "value": "Sweat on forehead",
+        "label": "Sweat on forehead"
+    },
+    {
+        "value": "Tilting head downward",
+        "label": "Tilting head downward"
+    },
+    {
+        "value": "Tilting head upward",
+        "label": "Tilting head upward"
+    },
+    {
+        "value": "Tilting one's head to the side",
+        "label": "Tilting one's head to the side"
+    },
+    {
+        "value": "Using something to hide face",
+        "label": "Using something to hide face"
+    },
+    {
+        "value": "Wincing",
+        "label": "Wincing"
+    },
+    {
+        "value": "Wrinkling nose",
+        "label": "Wrinkling nose"
     }
 ]

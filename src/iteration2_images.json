@@ -1,0 +1,476 @@
+[
+    {
+        "title": "fj4l5p4catllqurwee_2.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "g2818sb7780bmkdapg_2.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "gi0venvjw7zp0x7g27_2.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "h0uyuvx12plrieli3j_2.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "frame_lcs8pku339ipaanw_2.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "g6ic2rihk9g63m51h7_3.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "3",
+        "batch": 1
+    },
+    {
+        "title": "gvyytfxue60fydudwm_2.jpg",
+        "ground_truth": "Anger",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "akuyjjg8iwhu5cnb88_4.jpg",
+        "ground_truth": "Annoyance",
+        "boxNum": "4",
+        "batch": 1
+    },
+    {
+        "title": "fj4l5p4catllqurwee_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "h705hnfsvdwf6mh2xw_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "h7vpzemgea4y12fi5q_3.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "3",
+        "batch": 1
+    },
+    {
+        "title": "bpnds79lmiawm0sl98_3.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "3",
+        "batch": 1
+    },
+    {
+        "title": "COCO_train2014_000000395271_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "d2pnk5htt4z4qsj476_3.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "3",
+        "batch": 1
+    },
+    {
+        "title": "bvnl5un1jcl9g3fi27_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 1
+    },
+    {
+        "title": "daepkqdpa8ayy9ozff_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "d2jsis4z3xb9xiufj8_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "COCO_train2014_000000532286_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "azqbdxv0dguoj8ycip_2.jpg",
+        "ground_truth": "Aversion",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "frame_fujao5vwetu3plpx_3.jpg",
+        "ground_truth": "Confusion",
+        "boxNum": "3",
+        "batch": 2
+    },
+    {
+        "title": "d1npvcgcuqjuecw6g6_3.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "3",
+        "batch": 2
+    },
+    {
+        "title": "d1w7ax10ag28h7uilw_3.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "3",
+        "batch": 2
+    },
+    {
+        "title": "d30i8x6mo35zziyjb7_5.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "5",
+        "batch": 2
+    },
+    {
+        "title": "hh0dlplyw068ttct7q_3.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "3",
+        "batch": 2
+    },
+    {
+        "title": "frame_6sntgoysravct7vb_2.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "bkujn7hoksf0txl9on_3.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "3",
+        "batch": 2
+    },
+    {
+        "title": "bpnds79lmiawm0sl98_3.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "3",
+        "batch": 2
+    },
+    {
+        "title": "frame_7ra4av18rmeiwk3h_4.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "4",
+        "batch": 2
+    },
+    {
+        "title": "frame_8xil1j9jidxhuqz2_2.jpg",
+        "ground_truth": "Disapproval",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "h0uyuvx12plrieli3j_2.jpg",
+        "ground_truth": "Disconnection",
+        "boxNum": "2",
+        "batch": 2
+    },
+    {
+        "title": "COCO_train2014_000000160273_2.jpg",
+        "ground_truth": "Disconnection",
+        "boxNum": "2",
+        "batch": 3
+    },
+    {
+        "title": "frame_8amy35mrgw5w0az4_3.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "3",
+        "batch": 3
+    },
+    {
+        "title": "g2818sb7780bmkdapg_2.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "2",
+        "batch": 3
+    },
+    {
+        "title": "d7gmvr6bmurwcfacvk_2.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "2",
+        "batch": 3
+    },
+    {
+        "title": "d30i8x6mo35zziyjb7_5.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "5",
+        "batch": 3
+    },
+    {
+        "title": "frame_59d8sov4rs6g2xp4_4.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "4",
+        "batch": 3
+    },
+    {
+        "title": "6burh2fms2a508h4vu_2.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "2",
+        "batch": 3
+    },
+    {
+        "title": "dl5k4ukmcum9z54826_3.jpg",
+        "ground_truth": "Disquietment",
+        "boxNum": "3",
+        "batch": 3
+    },
+    {
+        "title": "hh0dlplyw068ttct7q_3.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "3",
+        "batch": 3
+    },
+    {
+        "title": "h7vpzemgea4y12fi5q_3.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "3",
+        "batch": 3
+    },
+    {
+        "title": "bdsb5tgwxfqxornk62_3",
+        "ground_truth": "Embarrassment",
+        "boxNum": "3",
+        "batch": 3
+    },
+    {
+        "title": "dyxwbrrg5gvylxzhec_4.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "4",
+        "batch": 3
+    },
+    {
+        "title": "frame_lm76u594ef3vqhho_2.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "2",
+        "batch": 3
+    },
+    {
+        "title": "frame_0a7a8ons84y86e9v_2.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "2",
+        "batch": 3
+    },
+    {
+        "title": "akuyjjg8iwhu5cnb88_4.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "4",
+        "batch": 3
+    },
+    {
+        "title": "frame_6d26bxsf1nhujj90_6.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "6",
+        "batch": 4
+    },
+    {
+        "title": "h70654ak2yulxkjgw0_2.jpg",
+        "ground_truth": "Embarrassment",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "frame_7cytbicxqsqrpl1h_3.jpg",
+        "ground_truth": "Fatigue",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "2g89p8dl2wdbumz3ca_2.jpg",
+        "ground_truth": "Fatigue",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "6burh2fms2a508h4vu_2.jpg",
+        "ground_truth": "Fatigue",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "72sb132jcc617h3y87_3.jpg",
+        "ground_truth": "Fatigue",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "frame_lcs8pku339ipaanw_2.jpg",
+        "ground_truth": "Fear",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "gvyytfxue60fydudwm_2.jpg",
+        "ground_truth": "Fear",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "fad0lq0rhuwwxv3l2x_3.jpg",
+        "ground_truth": "Fear",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "fad0lq0rhuwwxv3l2x_3.jpg",
+        "ground_truth": "Fear",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "ft4hfz5gtsfl7wwi45_2.jpg",
+        "ground_truth": "Fear",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "ebpsbjqzfhd7efh00i_3.jpg",
+        "ground_truth": "Pain/Suffering - Emotional",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "frame_jfiv35wuqttrgxre_2.jpg",
+        "ground_truth": "Pain/Suffering - Emotional",
+        "boxNum": "2",
+        "batch": 4
+    },
+    {
+        "title": "frame_6tzmd9fa1igp57jf_3.jpg",
+        "ground_truth": "Pain/Suffering - Emotional",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "frame_6s4sfpzryity441d_3.jpg",
+        "ground_truth": "Pain/Suffering - Emotional",
+        "boxNum": "3",
+        "batch": 4
+    },
+    {
+        "title": "cc1jjc84iko7hux4br_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "dot3m48vd33ymmg5yp_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "frame_9eem4w3082xtnxw9_1.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "1",
+        "batch": 5
+    },
+    {
+        "title": "frame_0sz2zrr64333ytku_4.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "4",
+        "batch": 5
+    },
+    {
+        "title": "frame_2sj7leq9cnxruly3_3.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "3",
+        "batch": 5
+    },
+    {
+        "title": "frame_hrvc8j7hn78arzby_1.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "1",
+        "batch": 5
+    },
+    {
+        "title": "frame_e0vazv342jyaf0r2_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "frame_etftv7jea4cxek0z_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "dl5k4ukmcum9z54826_3.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "3",
+        "batch": 5
+    },
+    {
+        "title": "dh2n32n6sa7z4dxzgb_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "e1nm684czifvxdjljh_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "dnz8r16rduh2vxoigq_2.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "2",
+        "batch": 5
+    },
+    {
+        "title": "7aydba2xnie8dt2kd0_5.jpg",
+        "ground_truth": "Pain/Suffering - Physical",
+        "boxNum": "5",
+        "batch": 5
+    },
+    {
+        "title": "8zuaqvqrb8xm5cew4p_1.jpg",
+        "ground_truth": "Sadness",
+        "boxNum": "1",
+        "batch": 5
+    },
+    {
+        "title": "9or8icmsvuu67o4fuo_1.jpg",
+        "ground_truth": "Sadness",
+        "boxNum": "1",
+        "batch": 5
+    },
+    {
+        "title": "a0vedh2ztm8eoz8p3x_1.jpg",
+        "ground_truth": "Sadness",
+        "boxNum": "1",
+        "batch": 6
+    },
+    {
+        "title": "a0qter8yqvbokxqzda_1.jpg",
+        "ground_truth": "Sadness",
+        "boxNum": "1",
+        "batch": 6
+    },
+    {
+        "title": "ebpsbjqzfhd7efh00i_3.jpg",
+        "ground_truth": "Sadness",
+        "boxNum": "3",
+        "batch": 6
+    },
+    {
+        "title": "b2wes3tdjv4bevzian_2.jpg",
+        "ground_truth": "Annoyance",
+        "boxNum": "2",
+        "batch": 6
+    }
+]

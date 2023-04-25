@@ -1,0 +1,126 @@
+[
+    {
+        "value": "Averted gaze",
+        "label": "Averted gaze"
+    },
+    {
+        "value": "Avoiding eye contact",
+        "label": "Avoiding eye contact"
+    },
+    {
+        "value": "Closed eyes",
+        "label": "Closed eyes"
+    },
+    {
+        "value": "Dark circles under the eyes",
+        "label": "Dark circles under the eyes"
+    },
+    {
+        "value": "Downcast eyes",
+        "label": "Downcast eyes"
+    },
+    {
+        "value": "Empty stare",
+        "label": "Empty stare"
+    },
+    {
+        "value": "Eyebrows squishing together",
+        "label": "Eyebrows squishing together"
+    },
+    {
+        "value": "Eyes are cold, dead and flat",
+        "label": "Eyes are cold, dead and flat"
+    },
+    {
+        "value": "Eyes are damp and bright",
+        "label": "Eyes are damp and bright"
+    },
+    {
+        "value": "Eyes wide open",
+        "label": "Eyes wide open"
+    },
+    {
+        "value": "Frowning",
+        "label": "Frowning"
+    },
+    {
+        "value": "Furrowed eyebrows",
+        "label": "Furrowed eyebrows"
+    },
+    {
+        "value": "Gaze clouding, going distant",
+        "label": "Gaze clouding, going distant"
+    },
+    {
+        "value": "Glaring",
+        "label": "Glaring"
+    },
+    {
+        "value": "Looking away",
+        "label": "Looking away"
+    },
+    {
+        "value": "Looking behind",
+        "label": "Looking behind"
+    },
+    {
+        "value": "Looking down",
+        "label": "Looking down"
+    },
+    {
+        "value": "Looking sideway",
+        "label": "Looking sideway"
+    },
+    {
+        "value": "Looking up",
+        "label": "Looking up"
+    },
+    {
+        "value": "Lowered eyebrows",
+        "label": "Lowered eyebrows"
+    },
+    {
+        "value": "Narrowed eyes",
+        "label": "Narrowed eyes"
+    },
+    {
+        "value": "Peeking",
+        "label": "Peeking"
+    },
+    {
+        "value": "Raising eyebrows",
+        "label": "Raising eyebrows"
+    },
+    {
+        "value": "Rolling eyes",
+        "label": "Rolling eyes"
+    },
+    {
+        "value": "Side-eyeing",
+        "label": "Side-eyeing"
+    },
+    {
+        "value": "Squeezing eyes shut",
+        "label": "Squeezing eyes shut"
+    },
+    {
+        "value": "Squinting eyes",
+        "label": "Squinting eyes"
+    },
+    {
+        "value": "Staring down at empty hands",
+        "label": "Staring down at empty hands"
+    },
+    {
+        "value": "Staring down at the ground",
+        "label": "Staring down at the ground"
+    },
+    {
+        "value": "Staring off into the distance",
+        "label": "Staring off into the distance"
+    },
+    {
+        "value": "Unfocused gaze",
+        "label": "Unfocused gaze"
+    }
+]

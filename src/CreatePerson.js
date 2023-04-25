@@ -5,6 +5,7 @@ import { Button, Flex, Text, TextField, SelectField } from '@aws-amplify/ui-reac
 import { Select } from 'react-select'
 import { DataStore } from '@aws-amplify/datastore';
 import { Person } from './models';
+import GPTAPI from './GPTAPI';
 
 // await DataStore.save(
 //   new Person({
@@ -20,6 +21,10 @@ import { Person } from './models';
 // );
 
 const physicalSignFacial = require('./physicalSignFacial.json');
+const physicalSignEyes= require('./physicalSignEyes.json');
+const physicalSignMouth= require('./physicalSignMouth.json');
+const physicalSignHands= require('./physicalSignHands.json');
+const physicalSignFeet= require('./physicalSignFeet.json');
 const physicalSignBody = require('./physicalSignBody.json');
 
 export default function CreatePerson ({ imageSrc }) {
@@ -64,13 +69,13 @@ export default function CreatePerson ({ imageSrc }) {
     {boxColour: "White", sex: "Male", name: "Jared"},
     {boxColour: "Yellow", sex: "Female", name: "Rachel"},
     {boxColour: "Yellow", sex: "Male", name: "Zack"},
-    {boxColour: "None", sex: "Female", name: "a female"},
-    {boxColour: "None", sex: "Male", name: "a male"},
+    {boxColour: "None", sex: "Female", name: "Lia"},
+    {boxColour: "None", sex: "Male", name: "Adam"},
   ]
 
   const [boxColour, setBoxColour] = useState('Red')
   const [physicalSignal, setPhysicalSignal] = useState([])
-  const [socialIdentity, setSocialIdentity] = useState({age: "Child", sex: "Female", occupation: ""})
+  const [socialIdentity, setSocialIdentity] = useState({age: "child", sex: "female", occupation: ""})
   const [socialRelation, setRelation] = useState([])
   const [socialInteraction, setInteraction] = useState([])
   // const [environment, setEnvironment] = useState([{ time: "", location: "" }])
@@ -81,6 +86,10 @@ export default function CreatePerson ({ imageSrc }) {
   const [checked, setChecked] = useState([]);
   const [isShown, setIsShown] = useState(false);
   const [isShownBody, setIsShownBody] = useState(false);
+  const [isShownHands, setIsShownHands] = useState(false);
+  const [isShownEyes, setIsShownEyes] = useState(false);
+  const [isShownFeet, setIsShownFeet] = useState(false);
+  const [isShownMouth, setIsShownMouth] = useState(false);
   const [name, setName] = useState("Chloe")
   
    // Add/Remove checked item from list
@@ -108,25 +117,45 @@ export default function CreatePerson ({ imageSrc }) {
   : "";
 
   // Generate string of checked items
-  const captionSocialIdentity = `${name} is a(n) ${socialIdentity.sex} ${socialIdentity.age}. `;
-  const captionOccupation = socialIdentity.occupation !== "" ? `${name}` + " is a(n) " + `${socialIdentity.occupation}. ` : "";
-  const captionPhysicalSignal = checked.length > 0 ? `${name} is or has ${checkedItems}. ` : "";
+  const captionSocialIdentity = `${name}` + ` is a ${socialIdentity.sex}` + ` ${socialIdentity.age}. ` ;
+  const captionOccupation = socialIdentity.occupation !== "" ? `${name}` + " is a(n) " + `${socialIdentity.occupation}. `.toLowerCase(): "";
+  const captionPhysicalSignal = checked.length > 0 ? `${name}` + ` is or has ${checkedItems}. `.toLowerCase() : "";
   const captionSocialRelation = socialRelation.length > 0 ? 
    socialRelation.map((item) => {
-    return `${name} is ${boxColourToName.filter(x => x.boxColour === item.name && x.sex === item.sex).map(x => x.name)}'s ${item.relationship} and ${name} is ${item.interaction} them. `;
+    return `${boxColourToName.filter(x => x.boxColour === item.name && x.sex === item.sex).map(x => x.name)} is ${item.relationship} and ${item.interaction}. `;
     }): ""
-  const captionEvironment = environment !== "" ? `${name}'s physical evironment is ${environment}. ` : "";
-  const caption = captionSocialIdentity + captionOccupation + captionPhysicalSignal + `${captionSocialRelation}`.replace(",", "") + captionEvironment + ` ${name} is likely to be feeling {placeholder}?`;
+  const captionEnvironment = environment !== "" ? `${name}'s physical environment is ${environment}. ` : "";
+  const gpt3 = "Choose one emotion from the list: Anger, Annoyance, Aversion, Confusion, Disapproval, Disconnection, Disquietment, Embarrassment, Fatigue, Fear, Pain/Suffering - Emotional, Pain/Suffering - Physical, and Sadness."
+  const caption = captionSocialIdentity + captionOccupation + captionPhysicalSignal + `${captionSocialRelation}`.replace(",", "") + captionEnvironment + ` ${name} is likely to be feeling {placeholder}? ` + gpt3;
 
-  
   const handleClick = (event) => {
     // toggle shown state
     setIsShown(current => !current);
   };
 
+  const handleClickEyes = (event) => {
+    // toggle shown state
+    setIsShownEyes(current => !current);
+  };
+
+  const handleClickMouth = (event) => {
+    // toggle shown state
+    setIsShownMouth(current => !current);
+  };
+
   const handleClickBody = (event) => {
     // toggle shown state
     setIsShownBody(current => !current);
+  };
+
+  const handleClickHands = (event) => {
+    // toggle shown state
+    setIsShownHands(current => !current);
+  };
+
+  const handleClickFeet = (event) => {
+    // toggle shown state
+    setIsShownFeet(current => !current);
   };
 
   const handleSubmit0 = async e => {
@@ -149,18 +178,26 @@ export default function CreatePerson ({ imageSrc }) {
         new Person(entity)
     )
 
+    // GPTAPI(); 
+
     alert('Submitted for ' + boxColour + " box." );
 
     // console.log("0", entity, emotion)
     setBoxColour("Red");
     setPhysicalSignal([]);
-    setSocialIdentity({age: "Child", sex: "Female", occupation: ""});
+    setSocialIdentity({age: "child", sex: "female", occupation: ""});
     setOtherEmotion("Anger");
     setRelation([]);
     setEnvironment("");
     setChecked([]);
     setIsShown(false);
     setIsShownBody(false);
+    setIsShownHands(false);
+    setIsShownEyes(false);
+    setIsShownFeet(false);
+    setIsShownMouth(false);
+    let random = Math.floor(Math.random() * femaleNames.length);
+    setName(femaleNames[random])
   }
 
   useEffect(() => {
@@ -199,6 +236,11 @@ export default function CreatePerson ({ imageSrc }) {
     setChecked([]);
     setIsShown(false);
     setIsShownBody(false);
+    setIsShownHands(false);
+    setIsShownEyes(false);
+    setIsShownFeet(false);
+    setIsShownMouth(false);
+    setName("Chloe");
   }
 
   const handleSubmit = async e => {
@@ -217,9 +259,9 @@ export default function CreatePerson ({ imageSrc }) {
 
       console.log(entity)
       
-      // const newEntity = await DataStore.save(
-      //     new Person(entity)
-      // )
+      const newEntity = await DataStore.save(
+          new Person(entity)
+      )
 
       // alert('Submitted for ' + boxColour + "." );
 
@@ -255,7 +297,7 @@ export default function CreatePerson ({ imageSrc }) {
 
   const handleSex = evt => {
     setSocialIdentity({...socialIdentity, sex: evt.target.value});
-    if(evt.target.value === "Female"){
+    if(evt.target.value === "female"){
       let random = Math.floor(Math.random() * femaleNames.length);
       // console.log(random, femaleNames[random]);
       setName(femaleNames[random])
@@ -421,27 +463,27 @@ export default function CreatePerson ({ imageSrc }) {
             <h4>Describe the person in the {boxColour} box.</h4>
             <Text as="span" fontSize="0.8rem" color="black">
               {' '}
-              <i>Leave Occupation empty if unsure.</i><br />
+              <i>Leave Occupation/Social Identity empty if unsure.</i><br />
             </Text>
             Age
               <select name="socialIdentity"
                 value={socialIdentity.age}
                 onChange={handleAge}
                 placeholder={'Please select'}>
-                <option value="Child">Child (0-12)</option>
-                <option value="Adolescent">Adolescent (13-17)</option>
-                <option value="Adult">Adult (18-64)</option>
-                <option value="Elder">Elder (65+)</option>
+                <option value="child">Child (0-12)</option>
+                <option value="adolescent">Adolescent (13-17)</option>
+                <option value="adult">Adult (18-64)</option>
+                <option value="elder">Elder (65+)</option>
               </select>
-              &nbsp;&nbsp;Sex
+              &nbsp;&nbsp;Perceived Sex
               <select name="socialIdentity"
                 value={socialIdentity.sex}
                 onChange={handleSex}
                 placeholder={'Please select'}>
-                <option value="Female">Female</option>
-                <option value="Male">Male</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
               </select>
-              &nbsp;&nbsp;Occupation
+              &nbsp;&nbsp;Occupation/Social Identity
               <input
                     type="text"
                     placeholder={`Doctor, Soccer player`}
@@ -456,7 +498,34 @@ export default function CreatePerson ({ imageSrc }) {
                   <i>Click the buttons to show/hide options. Select all that apply.</i>
                 </Text>
             <div>
-              <button type ="button" onClick={handleClick}>Show/hide facial signals</button>
+              <button type ="button" onClick={handleClickEyes}>Eyes signals</button>
+              {isShownEyes ? (
+                <div>
+                  {physicalSignEyes.map((item, index) => (
+                  <div key={index}>
+                    <input type="checkbox" value={item.value} onChange={handleCheck} checked={checked.includes(item.value)}></input>
+                    <span className={isChecked(item.value)}>{item.label}</span>
+                  </div>
+                ))}
+                </div>
+              ) : null}
+            </div>
+            <div>
+              <button type ="button" onClick={handleClickMouth}>Mouth signals</button>
+              {isShownMouth ? (
+                <div>
+                  {physicalSignMouth.map((item, index) => (
+                  <div key={index}>
+                    <input type="checkbox" value={item.value} onChange={handleCheck} checked={checked.includes(item.value)}></input>
+                    <span className={isChecked(item.value)}>{item.label}</span>
+                  </div>
+                ))}
+                </div>
+              ) : null}
+            </div>
+          <div></div>
+            <div>
+              <button type ="button" onClick={handleClick}>Facial signals</button>
               {isShown ? (
                 <div>
                   {physicalSignFacial.map((item, index) => (
@@ -469,10 +538,36 @@ export default function CreatePerson ({ imageSrc }) {
               ) : null}
             </div>
             <div>
-              <button type ="button" onClick={handleClickBody}>Show/hide body signals</button>
+              <button type ="button" onClick={handleClickHands}>Hands signals</button>
+              {isShownHands ? (
+                <div>
+                  {physicalSignHands.map((item, index) => (
+                  <div key={index}>
+                    <input type="checkbox" value={item.value} onChange={handleCheck} checked={checked.includes(item.value)}></input>
+                    <span className={isChecked(item.value)}>{item.label}</span>
+                  </div>
+                ))}
+                </div>
+              ) : null}
+            </div>
+            <div>
+              <button type ="button" onClick={handleClickBody}>Torso signals</button>
               {isShownBody ? (
                 <div>
                   {physicalSignBody.map((item, index) => (
+                  <div key={index}>
+                    <input type="checkbox" value={item.value} onChange={handleCheck} checked={checked.includes(item.value)}></input>
+                    <span className={isChecked(item.value)}>{item.label}</span>
+                  </div>
+                ))}
+                </div>
+              ) : null}
+            </div>
+            <div>
+              <button type ="button" onClick={handleClickFeet}>Feet signals</button>
+              {isShownFeet ? (
+                <div>
+                  {physicalSignFeet.map((item, index) => (
                   <div key={index}>
                     <input type="checkbox" value={item.value} onChange={handleCheck} checked={checked.includes(item.value)}></input>
                     <span className={isChecked(item.value)}>{item.label}</span>
@@ -508,11 +603,11 @@ export default function CreatePerson ({ imageSrc }) {
                   <option value="Embarrassment">Embarrassment</option>
                   <option value="Fatigue">Fatigue</option>
                   <option value="Fear">Fear</option>
-                  <option value="Pain - Physical">Pain - Physical</option>
-                  <option value="Pain - Emotional">Pain - Emotional</option>
+                  <option value="Pain/Suffering - Emotional">Pain/Suffering - Emotional</option>
+                  <option value="Pain/Suffering - Physical">Pain/Suffering - Physical</option>
                   <option value="Sadness">Sadness</option>
-                  <option value="Suffering - Physical">Suffering - Physical</option>
-                  <option value="Suffering - Emotional">Suffering - Emotional</option>
+                  {/* <option value="Suffering - Physical">Suffering - Physical</option> */}
+                  {/* <option value="Suffering - Emotional">Suffering - Emotional</option> */}
                   <option value="Others">Others</option>
               </select>  
               {otherEmotion === "Others" ? <div><Text as="span" fontSize="0.8rem" color="red">
@@ -521,10 +616,8 @@ export default function CreatePerson ({ imageSrc }) {
                   </Text><TextField onChange={e => setEmotion(e.target.value)}></TextField></div>: null} 
             </div>
           </div>
-          <div>
-            <h4>What is {name}'s relationship with others in the image?</h4>
-            <h4>Who is {name} to them?</h4>
-            <h4>How is {name} interacting with them?</h4>
+          <div> 
+            <h4>Who is {name} interacting with in the image and how? What is their relationship?</h4>
             <Text as="span" fontSize="0.8rem" color="black">
                 {' '}
                 <i>Click add to add as many entries as you observe. Click delete to delete an entry.</i>
@@ -586,7 +679,7 @@ export default function CreatePerson ({ imageSrc }) {
                         >
                         Delete
                         </button>
-                  <p>{name} is {boxColourToName.filter(x => x.boxColour === relation.name && x.sex === relation.sex).map(x => x.name)}'s {relation.relationship} and {name} is {relation.interaction} them.</p>
+                  <p>{boxColourToName.filter(x => x.boxColour === relation.name && x.sex === relation.sex).map(x => x.name)} is {relation.relationship} and {relation.interaction}.</p>
                 </div>
                 ))}
                 <button
@@ -668,7 +761,7 @@ export default function CreatePerson ({ imageSrc }) {
             <h4>Describe {name}'s physical surrounding.</h4>
             <Text as="span" fontSize="0.8rem" color="black">
               {' '}
-              <i>Ex: Time, Location, Event, Nearby objects.</i>
+              <i>Ex: Time, Location, Event, Nearby objects, Animals.</i>
             </Text>
             <div className='inputField'>
                 <textarea
@@ -685,13 +778,14 @@ export default function CreatePerson ({ imageSrc }) {
             {`${caption}`}
           </div>
           <p>===============</p>
-          <p>{name} is a(n) {socialIdentity.age} and {socialIdentity.sex}.</p>
+          <p>{name} is a {socialIdentity.sex} {socialIdentity.age}.</p>
           {socialIdentity.occupation !== "" ? (<p>{name} is a(n) {socialIdentity.occupation}.</p>):null}
           {physicalSignal.length > 0 ? <p>{name} is or has {checkedItems}.&nbsp;</p> : null}
           {socialRelation.length > 0 ? <p>
             { socialRelation.map((rel) => {
-              return <span>{name} is {boxColourToName.filter(x => x.boxColour === rel.name && x.sex === rel.sex).map(x => x.name)}'s {rel.relationship} and {name} is {rel.interaction} them. </span>;
+              return <span>{boxColourToName.filter(x => x.boxColour === rel.name && x.sex === rel.sex).map(x => x.name)} is {rel.relationship} and {rel.interaction}. </span>;
               })}</p> : null}
+          {environment !== "" ? (<p>{name}'s physical environment is {environment}.</p>): ""}
           {name} is likely to be feeling {emotion}.
           <div>
           <button type='submit' onClick={handleSubmit0}>Submit</button>
@@ -699,6 +793,7 @@ export default function CreatePerson ({ imageSrc }) {
           <button type='submit' onClick={handleSubmit1}>Submit & re-use values for another box</button>
           </div>
       </form>
+      
   )
 
 }
